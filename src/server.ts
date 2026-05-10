@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("iuytdsxdgftfcghjb");
+    res.send("finally got error ");
   });
 
   app.listen(PORT, () => {
