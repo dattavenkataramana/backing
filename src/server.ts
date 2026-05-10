@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("web hook is working");
+    res.send("web hook is workings");
   });
 
   app.listen(PORT, () => {
