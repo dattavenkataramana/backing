@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("sdfdgfhnjmmhngbfvdcsvfgbhnyjmukkujmnhbgvfcd");
+    res.send("jmghfgbdfvsdcadfghjmyhngbfvsd");
   });
 
   app.listen(PORT, () => {
