@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 5000;
 const startServer = async () => {
   await connectDB();
 
+  app.get("/", (req, res) => {
+    res.send("Jenkins CI/CD Deployment Working Successfully");
+  });
+
   app.listen(PORT, () => {
     console.log(`Server Running On ${PORT}`);
   });
