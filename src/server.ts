@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("10-05-22026");
+    res.send("Webhook Auto Deploy Working");
   });
 
   app.listen(PORT, () => {
