@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("10--5-2026");
+    res.send("Hello World");
   });
 
   app.listen(PORT, () => {
