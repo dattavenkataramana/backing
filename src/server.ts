@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("Jenkins CI/CD Deployment Working Successfully");
+    res.send("datta chnage code in master branch");
   });
 
   app.listen(PORT, () => {
