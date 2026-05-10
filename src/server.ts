@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("datta chnage code in master branch");
+    res.send("10-05-22026");
   });
 
   app.listen(PORT, () => {
