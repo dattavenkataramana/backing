@@ -10,7 +10,7 @@ const startServer = async () => {
   await connectDB();
 
   app.get("/", (req, res) => {
-    res.send("Webhook Auto Deploy Working");
+    res.send("datta ");
   });
 
   app.listen(PORT, () => {
